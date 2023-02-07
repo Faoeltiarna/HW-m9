@@ -4,7 +4,7 @@ public class MyHashMap<K, V> {
     int size = 0;
 
     public int getKeyIndex(K key) {
-        return key.hashCode() % buckets.length;
+        return Math.floorMod(key.hashCode(), buckets.length);
     }
 
     public void put(K key, V value) {

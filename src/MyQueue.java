@@ -21,7 +21,7 @@ class MyQueue <T>{
         Arrays.fill(array, null);
     }
 
-    public int getSize() {
+    public int size() {
         return size;
     }
 

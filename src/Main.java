@@ -49,7 +49,7 @@ public class Main {
 //        myLinkedList.remove(4);
 //        System.out.println(myLinkedList.get(3));
 
-//        MyHashMap<Integer, String> myHashMap = new MyHashMap<>();
+        MyHashMap<String, Integer> myHashMap = new MyHashMap<>();
 //        myHashMap.put(1, "Vasilii");
 //        myHashMap.put(2, "Petro");
 //        myHashMap.put(3, "Grisha");
@@ -60,6 +60,12 @@ public class Main {
 //        myHashMap.remove(1);
 //        System.out.println(myHashMap.get(1));
 
+//        myHashMap.clear();
+//        System.out.println("map.size() = " + myHashMap.size());
+//        for (int i = 0; i < 1000; i++) {
+//            myHashMap.put("Test" + i,  i * i);
+//        }
+//        System.out.println("map.size() = " + myHashMap.size());
 
 
 
